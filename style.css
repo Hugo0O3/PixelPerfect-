@@ -1,0 +1,104 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #D74949;
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    top: -32px;
+}
+
+main {
+    position: relative;
+    left: 165px;
+    background-color: #F3F3F3;
+    width: 1110px;
+    height: 615px;
+}
+
+.containerMain {
+}
+
+footer {
+    position: absolute;
+    top: 615px;
+    background-color: #3A3A3A;
+    width: 1440px;
+    height: 70px;
+}
+
+.footerMess {
+    position: relative;
+    height: 70px;
+    width: 1440px;
+    background-color: #3A3A3A;
+}
+
+.footerMess p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: black;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: black;
+    text-align: right;
+}
+
+.section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: black;
+    text-align: center;
+}
+
+.sectionH1 {
+    position: relative;
+    width: 64px;
+    height: 16px;
+    top: 100px;
+    left: 215px;
+}
+
+.sectionH2 {
+    position: relative;
+    width: 1009px;
+    height: 19px;
+    top: 128px;
+    left: 215px;
+}
+
+.sectionP {
+    position: relative;
+    width: 1009px;
+    height: 23px;
+    top: 154px;
+    left: 215px;
+}
+
+main p span {
+    color: rgb(143, 39, 39);
+}

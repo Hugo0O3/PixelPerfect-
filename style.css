@@ -90,10 +90,18 @@ main p span {
     border-radius: 15px;
 }
 
-.card img {
+.image-container {
     width: 200px;
     height: 185px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("./images/yuimetal.gif");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    background-image: url("./images/ane.gif");
 }
 
 .card a img {
